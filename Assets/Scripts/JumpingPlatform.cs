@@ -10,6 +10,7 @@ public class JumpingPlatform : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
+            collision.collider.GetComponent<Rigidbody>().velocity = Vector3.zero;
             collision.collider.GetComponent<Rigidbody>().AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         }
     }
