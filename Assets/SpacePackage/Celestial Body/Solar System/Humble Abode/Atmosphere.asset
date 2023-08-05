@@ -21,7 +21,7 @@ MonoBehaviour:
   densityFalloff: 4.3
   wavelengths: {x: 700, y: 530, z: 460}
   testParams: {x: 3, y: 0.15, z: 6.4, w: 1.5}
-  scatteringStrength: 20
+  scatteringStrength: 25
   intensity: 1
   ditherStrength: 1
   ditherScale: 3.89
