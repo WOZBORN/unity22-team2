@@ -15,7 +15,7 @@ public class CustomPostProcessing : MonoBehaviour {
 
 	void Init () {
 		if (defaultShader == null) {
-			defaultShader = Shader.Find ("Unlit/Texture");
+			defaultShader = Shader.Find ("Standard");
 		}
 		defaultMat = new Material (defaultShader);
 	}
